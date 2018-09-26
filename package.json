@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/bojana12/project-using-bootstrap#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^4.1.3"
   }
 }

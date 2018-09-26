@@ -1,0 +1,47 @@
+.fw-900 {
+  font-weight: 900; }
+
+.pl-10 {
+  padding-left: 10px; }
+
+body {
+  font-family: "Roboto Condensed", Arial, sans-serif !important; }
+
+.container {
+  padding: 0 !important; }
+  .container .first-header {
+    position: relative;
+    width: 100%;
+    height: 34px;
+    background-color: #000; }
+    .container .first-header .sign-in a,
+    .container .first-header .subscribe a {
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      padding: 6.5px;
+      text-transform: uppercase; }
+    .container .first-header .sign-in a {
+      color: #fff; }
+    .container .first-header .subscribe a {
+      background-color: #fff;
+      color: #f72210; }
+  .container .second-header {
+    width: 100%;
+    height: 40px;
+    background-color: #f72210; }
+    .container .second-header a {
+      display: inline-block; }
+    .container .second-header .menu-icon {
+      position: relative;
+      display: block;
+      width: 40px;
+      height: 40px; }
+      .container .second-header .menu-icon .fa-bars {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 16px;
+        width: 16px;
+        color: #fff; }

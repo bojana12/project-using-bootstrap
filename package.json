@@ -1,0 +1,23 @@
+{
+  "name": "project-using-bootstrap",
+  "version": "1.0.0",
+  "description": "Newsweek clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass -w ./styles/ -o ./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojana12/project-using-bootstrap.git"
+  },
+  "author": "Bojana Karakacev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bojana12/project-using-bootstrap/issues"
+  },
+  "homepage": "https://github.com/bojana12/project-using-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

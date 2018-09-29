@@ -1,0 +1,32 @@
+.lists {
+  ul {
+    li {    
+      border-bottom: 1px solid #ddd;
+
+      &:last-child {
+        border: none;
+      }
+
+      .opinion-image {
+        width: 63px;
+        height: 63px;
+        margin-right: 15px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      } // end of opinion-image
+
+      .latest-news-image {
+        max-width: 100px;
+        height: auto;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    } // end of li
+  } // end of ul
+} // end of lists

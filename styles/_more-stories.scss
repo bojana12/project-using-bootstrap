@@ -1,0 +1,17 @@
+.more-stories {
+  .story {
+    padding: 14px 0;
+    border-top: 1px solid #ddd;
+
+    .story-img {
+      float: left;
+      width: 182px;
+      margin-right: 20px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    } // end of story-img
+  } // end of story
+} // end of more-stories

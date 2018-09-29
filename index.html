@@ -12,25 +12,146 @@
     <title>Newsweek clone</title>
   </head>
   <body>
-    <div class="container">
-      <header class="first-header d-flex flex-row justify-content-end">
-        <div class="sign-in"><a class="fw-900" href="#">Sign in</a></div>
-        <div class="subscribe"><a class="fw-900" href="#">Subscribe</a>
-      </header>
+    <header class="first-header d-flex flex-row justify-content-end">
+      <div class="sign-in"><a class="fw-900 upcase" href="#">Sign in</a></div>
+      <div class="subscribe"><a class="fw-900 upcase" href="#">Subscribe</a>
+    </header>
 
-      <header class="second-header d-flex flex-row justify-content-between">
-        <a href="#"><img src="./images/newsweek-logo.png" class="pl-10" /></a>
-        <a class="menu-icon" href="#"><i class="fas fa-bars align-middle"></i></a>
-      </header>
-    </div><!-- end of container -->
+    <header class="second-header d-flex flex-row justify-content-between">
+      <a href="#"><img src="./images/newsweek-logo.png" class="pl-10" /></a>
+      <a class="menu-icon" href="#"><i class="fas fa-bars align-middle"></i></a>
+    </header>
 
-    <div class="container">
-      <section class="stories">
-        <article class="top-story">
-          
-        </article>
+    <div class="main container-fluid mt-20">
+      <article class="top-story"> 
+        <div class="story-img">
+          <h5 class="title-style">Top story</h5>
+          <img src="https://c-5uwzmx78pmca09x24ax2evmeaemmsx2ekwu.g00.newsweek.com/g00/3_c-5eee.vmeaemms.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fa.vmeaemms.kwux2faqbmax2feee.vmeaemms.kwux2fnqtmax2fabgtmax2flmasbwx78x2fx78cjtqkx2f0896x2f87x2f04x2fzba00fka.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$/$/$/$" class="img-fluid" />
+          <div class="category upcase fw-900"><a href="#" class="d-block col-inh">World</a></div>
+        </div><!-- end of top-story-img -->
+
+        <div class="story">
+          <a href="/trump-accuses-china-trying-interfere-upcoming-midterms-1139701" class="d-block col-inh fw-900"><h4 class="fw-900">Trump Accuses China of Election Interference at U.N.</h4></a>
+          <p class="mr-10">The president made the claim as he chaired a Wednesday morning meeting of the United Nations Security Council, which was discussing weapons of mass destruction.</p>
+          <hr class="mb-10">
+          <a href="/china-pulls-out-washington-talks-over-fresh-trump-tariffs-trade-war-escalates-1134449" class="d-block"><h5 class="fw-900 black">China Pulls Out of Washington Trade Talks</h5></a>
+        </div>
+      </article><!-- end of top-story -->
+
+      <section class="more-stories">
+        <h5 class="title-style">More stories</h5>
+        <article class="story">
+          <div class="story-img">
+            <img width="391" height="261" src="./images/story1-img.jpg">
+          </div>
+          <div class="story-body">
+            <a href="/murphy-brown-revival-diane-english-interview-1136807"><h5 class="black fw-900 fs-17">'Murphy Brown' Returns, Ready to Take on Trump</h5></a>
+            <p class="fs-14 fw-300">Fans on social media were asking, What would Murphy say about this? So English revived her newsroom sitcom. “It was the idea of being relevant that really changed my mind," she says.</p>
+          </div>
+        </article><!-- end of story -->
+
+        <article class="story">
+          <div class="story-img">
+            <img width="391" height="261" src="./images/story2-img.jpg">
+          </div>
+          <div class="story-body">
+            <a href="/elon-musk-calls-sec-fraud-lawsuit-unjustified-1142742"><h5 class="black fw-900 fs-17">Elon Musk Calls SEC Lawsuit 'Unjustified'</h5></a>
+            <p class="fs-14 fw-300">“I have always taken action in the best interests of truth, transparency and investors.”</p>
+          </div>
+        </article><!-- end of story -->
+
+        <article class="story">
+          <div class="story-img">
+            <img width="391" height="261" src="./images/story3-img.jpg">
+          </div>
+          <div class="story-body">
+            <a href="/christine-blasey-ford-witness-rachel-mitchell-1142522"><h5 class="black fw-900 fs-17">GOP Tries to Poke Holes in Ford’s Testimony</h5></a>
+            <p class="fs-14 fw-300">Several former federal prosecutors described the GOP’s line of questioning as&nbsp;attempting to paint Ford as an uncredible witness by highlighting minor inconsistencies in her story.</p>
+          </div>
+        </article><!-- end of story -->
+
+        <article class="story">
+          <div class="story-img">
+            <img width="391" height="261" src="./images/story4-img.jpg">
+          </div>
+          <div class="story-body">
+            <a href="/hurricane-season-climate-change-human-causes-harvey-florence-1141457"><h5 class="black fw-900 fs-17">Humans Helped Make 2017's Hurricane Season Catastrophic</h5></a>
+            <p class="fs-14 fw-300">A new study shows climate change and reduced aerosols could have been contributing factors to the intensity of the storms.</p>
+          </div>
+        </article><!-- end of story -->
+
+        <article class="story">
+          <div class="story-img">
+            <img width="391" height="261" src="./images/story5-img.jpg">
+          </div>
+          <div class="story-body">
+            <a href="/us-flies-nuclear-bombers-near-disputed-chinese-sea-bases-beijing-condemns-1142032"><h5 class="black fw-900 fs-17">U.S. Flies Nuclear Bombers Near Disputed Chinese Bases</h5></a>
+            <p class="fs-14 fw-300">"We will take all necessary means to safeguard our rights and interests," said a Chinese Defense Ministry spokesman.</p>
+          </div>
+        </article><!-- end of story -->
+      </section><!-- end of more stories -->
+
+      <section class="featured-stories">
+        <article class="top-story"> 
+          <div class="story-img">
+            <h5 class="title-style">Featured stories</h5>
+            <img src="./images/featured-story1.jpg" class="img-fluid" />
+            <div class="category upcase fw-900"><a href="#" class="d-block col-inh">U.S.</a></div>
+          </div><!-- end of top-story-img -->
+  
+          <div class="story">
+            <a href="/lax-passengers-can-now-bring-weed-flights-1143057" class="d-block col-inh fw-900"><h4 class="fw-900">LAX Passengers Can Now Bring Weed on Flights</h4></a>
+            <p class="mr-10">Careful though, you can't take more than an ounce.</p>
+            <hr class="mb-10">
+            <a href="/weed-investors-compare-budding-industry-1990s-internet-boom-1135672" class="d-block"><h5 class="fw-900 black">Weed Investors Compare Industry to 1990s Internet Boom</h5></a>
+          </div>
+        </article><!-- end of top-story -->
+
+        <article class="top-story"> 
+          <div class="story-img">
+            <img src="./images/featured-story2.jpg" class="img-fluid" />
+            <div class="category upcase fw-900"><a href="#" class="d-block col-inh">U.S.</a></div>
+          </div><!-- end of top-story-img -->
+  
+          <div class="story">
+            <a href="/christine-blasey-ford-brett-kavanaugh-rape-1142106" class="d-block col-inh fw-900"><h4 class="fw-900">Christine Blasey Ford: 'I Am Terrified'</h4></a>
+            <p class="mr-10">Ford was visibly distressed as she read her opening statement before the Senate Judiciary Committee, describing a sexual assault she alleged Brett Kavanaugh committed against her while she was in high school.</p>
+            <hr class="mb-10">
+            <a href="/ford-kavanaugh-hearing-live-stream-1139689" class="d-block"><h5 class="fw-900 black">Ford, Kavanaugh to Appear Before Senate</h5></a>
+          </div>
+        </article><!-- end of top-story -->
+
+        <article class="top-story"> 
+          <div class="story-img">
+            <img src="./images/featured-story3.jpg" class="img-fluid" />
+            <div class="category upcase fw-900"><a href="#" class="d-block col-inh">U.S.</a></div>
+          </div><!-- end of top-story-img -->
+  
+          <div class="story">
+            <a href="/graham-woman-rape-sorry-tell-cops-1142445" class="d-block col-inh fw-900"><h4 class="fw-900">Graham Threatens Democrats' Future Nominations</h4></a>
+            <p class="mr-10">The South Carolina lawmaker said he had trouble believing Christine Blasey Ford's allegations against Supreme Court nominee Brett Kavanaugh.</p>
+            <hr class="mb-10">
+            <a href="/orrin-hatch-calls-christine-blasey-ford-attractive-witness-pleasing-1142395" class="d-block"><h5 class="fw-900 black">Orrin Hatch Calls Ford 'an Attractive Witness'</h5></a>
+          </div>
+        </article><!-- end of top-story -->
+
+        <article class="top-story"> 
+          <div class="story-img">
+            <img src="./images/featured-story4.jpg" class="img-fluid" />
+            <div class="category upcase fw-900"><a href="#" class="d-block col-inh">U.S.</a></div>
+          </div><!-- end of top-story-img -->
+  
+          <div class="story">
+            <a href="/pentagon-rushes-spend-billions-end-month-1137552" class="d-block col-inh fw-900"><h4 class="fw-900">Pentagon Rushes to Spend Billions Before End of Month</h4></a>
+            <p class="mr-10"> “Unfortunately, most of the federal government adheres to a philosophy of ‘use or lose it,’” Senator Rand Paul said.</p>
+            <hr class="mb-10">
+            <a href="/robert-reich-trump-increased-military-spending-over-200-billion-heres-how-983843" class="d-block"><h5 class="fw-900 black">Robert Reich: How We Could Spend Military Billions</h5></a>
+          </div>
+        </article><!-- end of top-story -->
       </section>
-    </div>
+    </div><!-- end of main container-fluid -->
+
+        
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

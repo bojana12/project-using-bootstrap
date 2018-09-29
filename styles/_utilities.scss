@@ -2,6 +2,49 @@
   font-weight: 900;
 }
 
+.fw-300 {
+  font-weight: 300;
+}
+
 .pl-10 {
   padding-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.col-inh {
+  color: inherit;
+}
+
+.black {
+  color: #000;
+}
+
+.title-style {
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  font-weight: 900;
 }

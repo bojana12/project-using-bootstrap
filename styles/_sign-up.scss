@@ -1,0 +1,28 @@
+.sign-up {
+  width: 80%;
+  margin: 40px auto 0 auto;
+  background-color: #f4f5f6;
+
+  .newsletter {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    span {
+      line-height: 20px;
+      padding-left: 35px;
+    }
+  } // end of newsletter
+
+  span {
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 5px;
+  }
+} // end of sign-up

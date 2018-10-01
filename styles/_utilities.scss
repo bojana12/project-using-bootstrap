@@ -22,12 +22,24 @@
   margin-top: 10px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
 
 .mb-15 {
   margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .mtb-10 {
@@ -42,12 +54,12 @@
   margin-right: 15px;
 }
 
-.mt-20 {
-  margin-top: 20px;
-}
-
 .fs-10 {
   font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
 .fs-14 {
@@ -58,12 +70,16 @@
   font-size: 15px;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
 .fs-17 {
   font-size: 17px;
 }
 
-.fs-16 {
-  font-size: 16px;
+.fs-18 {
+  font-size: 18px !important;
 }
 
 .fs-19 {
@@ -78,6 +94,14 @@
   color: inherit;
 }
 
+.white {
+  color: #fff;
+}
+
+.red {
+  color: #f72210 !important;
+}
+
 .black {
   color: #000;
 }
@@ -86,8 +110,20 @@
   color: #3581f4;
 }
 
+.grey {
+  color: #666;
+}
+
 .light-dark {
   color: #555;
+}
+
+.bg-col-red {
+  background-color: #f72210;
+}
+
+.bg-col-light-grey {
+  background-color: #f4f5f6;
 }
 
 .title-style {
@@ -97,10 +133,15 @@
   font-weight: 900;
 }
 
-.border-style {
+.b-style {
   border: 1px solid #e6e6e6;
+}
+
+.bstyle-bottom {
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .bradius-0 {
   border-radius: 0 !important;
 }
+

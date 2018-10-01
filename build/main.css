@@ -16,11 +16,20 @@
 .mt-10 {
   margin-top: 10px; }
 
+.mt-20 {
+  margin-top: 20px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
 .mb-10 {
   margin-bottom: 10px; }
 
 .mb-15 {
   margin-bottom: 15px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
 
 .mtb-10 {
   margin: 10px 0; }
@@ -31,11 +40,11 @@
 .mr-15 {
   margin-right: 15px; }
 
-.mt-20 {
-  margin-top: 20px; }
-
 .fs-10 {
   font-size: 10px; }
+
+.fs-12 {
+  font-size: 12px; }
 
 .fs-14 {
   font-size: 14px; }
@@ -43,11 +52,14 @@
 .fs-15 {
   font-size: 15px; }
 
+.fs-16 {
+  font-size: 16px; }
+
 .fs-17 {
   font-size: 17px; }
 
-.fs-16 {
-  font-size: 16px; }
+.fs-18 {
+  font-size: 18px !important; }
 
 .fs-19 {
   font-size: 19px !important; }
@@ -58,14 +70,29 @@
 .col-inh {
   color: inherit; }
 
+.white {
+  color: #fff; }
+
+.red {
+  color: #f72210 !important; }
+
 .black {
   color: #000; }
 
 .blue {
   color: #3581f4; }
 
+.grey {
+  color: #666; }
+
 .light-dark {
   color: #555; }
+
+.bg-col-red {
+  background-color: #f72210; }
+
+.bg-col-light-grey {
+  background-color: #f4f5f6; }
 
 .title-style {
   font-size: 16px;
@@ -73,8 +100,11 @@
   text-transform: uppercase;
   font-weight: 900; }
 
-.border-style {
+.b-style {
   border: 1px solid #e6e6e6; }
+
+.bstyle-bottom {
+  border-bottom: 1px solid #e6e6e6; }
 
 .bradius-0 {
   border-radius: 0 !important; }
@@ -123,10 +153,12 @@ a {
       color: #fff; }
 
 .top-story .story-img,
-.featured-stories .story-img {
+.featured-stories .story-img,
+.feature .story-img {
   position: relative; }
   .top-story .story-img .category,
-  .featured-stories .story-img .category {
+  .featured-stories .story-img .category,
+  .feature .story-img .category {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -137,17 +169,20 @@ a {
     z-index: 1; }
 
 .top-story .story h4,
-.featured-stories .story h4 {
+.featured-stories .story h4,
+.feature .story h4 {
   font-size: 22px;
   line-height: 24px;
   margin: 10px 0; }
 
 .top-story .story p,
-.featured-stories .story p {
+.featured-stories .story p,
+.feature .story p {
   font-size: 14px; }
 
 .top-story .story h5,
-.featured-stories .story h5 {
+.featured-stories .story h5,
+.feature .story h5 {
   font-size: 19px;
   margin-bottom: 30px; }
 
@@ -182,7 +217,7 @@ a {
 
 .sign-up {
   width: 80%;
-  margin: 40px auto 0 auto;
+  margin: 40px auto 40px auto;
   background-color: #f4f5f6; }
   .sign-up .newsletter {
     position: relative;
@@ -199,3 +234,24 @@ a {
     font-size: 15px;
     font-weight: 900;
     padding-top: 5px; }
+
+footer {
+  border-top: 2px solid #f4f5f6; }
+  footer .social-networks {
+    padding: 30px 15px 0 15px; }
+    footer .social-networks ul {
+      list-style: none;
+      padding: 0; }
+      footer .social-networks ul li {
+        font-size: 24px;
+        padding-right: 10px; }
+  footer .links {
+    padding: 0 15px 30px 15px;
+    line-height: 28px; }
+    footer .links .first-list {
+      border-top: 1px solid #d9d9d9; }
+    footer .links ul {
+      list-style: none;
+      padding: 6px 0 0 0; }
+      footer .links ul li {
+        padding-right: 20px; }

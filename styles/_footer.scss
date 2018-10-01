@@ -1,0 +1,35 @@
+footer {
+  border-top: 2px solid #f4f5f6;
+
+  .social-networks {
+    padding: 30px 15px 0 15px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-size: 24px;
+        padding-right: 10px;
+      }
+    }
+  } // end of social-networks
+
+  .links {
+    padding: 0 15px 30px 15px;
+    line-height: 28px;
+
+    .first-list {
+      border-top: 1px solid #d9d9d9;
+    }
+
+    ul {
+      list-style: none;
+      padding: 6px 0 0 0;
+
+      li {
+        padding-right: 20px;
+      }
+    }
+  }
+} // end of footer

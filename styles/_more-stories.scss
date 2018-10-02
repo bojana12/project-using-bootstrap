@@ -15,3 +15,11 @@
     } // end of story-img
   } // end of story
 } // end of more-stories
+
+section#more-stories1 {
+  @include tablet {
+    position: absolute;
+    right: 0;
+    top: 70%;
+  }
+}

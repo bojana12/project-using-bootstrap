@@ -32,4 +32,19 @@
       margin-bottom: 30px;
     }
   } // end of story
-} // end of top-story
+} // end of top-story, featured-stories and feature
+
+article#top-story1 {
+  @include tablet {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.feature {
+  @include tablet {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}

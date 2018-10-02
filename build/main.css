@@ -111,9 +111,19 @@
 
 body {
   font-family: "Roboto Condensed", Arial, sans-serif !important; }
-
-a {
-  display: block; }
+  body a {
+    display: block; }
+  @media screen and (min-width: 450px) {
+    body .sponsor-insight {
+      width: 45%;
+      margin: 0 auto; } }
+  @media screen and (min-width: 450px) {
+    body .in-the-magazine .title {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6; } }
+  @media screen and (min-width: 450px) {
+    body .featured-slideshows article {
+      margin-top: 0; } }
 
 .first-header {
   position: relative;
@@ -186,6 +196,17 @@ a {
   font-size: 19px;
   margin-bottom: 30px; }
 
+@media screen and (min-width: 450px) {
+  article#top-story1 {
+    position: absolute;
+    right: 0; } }
+
+@media screen and (min-width: 450px) {
+  .feature {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px; } }
+
 .more-stories .story {
   padding: 14px 0;
   border-top: 1px solid #ddd; }
@@ -196,6 +217,12 @@ a {
     .more-stories .story .story-img img {
       max-width: 100%;
       height: auto; }
+
+@media screen and (min-width: 450px) {
+  section#more-stories1 {
+    position: absolute;
+    right: 0;
+    top: 70%; } }
 
 .lists ul li {
   border-bottom: 1px solid #ddd; }
@@ -219,6 +246,9 @@ a {
   width: 80%;
   margin: 40px auto 40px auto;
   background-color: #f4f5f6; }
+  @media screen and (min-width: 450px) {
+    .sign-up {
+      width: 40%; } }
   .sign-up .newsletter {
     position: relative;
     display: flex;
@@ -238,10 +268,25 @@ a {
 footer {
   border-top: 2px solid #f4f5f6; }
   footer .social-networks {
+    position: relative;
     padding: 30px 15px 0 15px; }
+    @media screen and (min-width: 450px) {
+      footer .social-networks img {
+        padding-bottom: 5px; }
+      footer .social-networks p {
+        position: absolute;
+        display: inline-block;
+        bottom: 5px;
+        margin-left: 10px; }
+      footer .social-networks .social-icons {
+        position: absolute;
+        margin: 0;
+        right: 0;
+        bottom: 5px; } }
     footer .social-networks ul {
       list-style: none;
-      padding: 0; }
+      padding: 0;
+      margin: 0; }
       footer .social-networks ul li {
         font-size: 24px;
         padding-right: 10px; }

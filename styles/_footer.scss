@@ -2,11 +2,33 @@ footer {
   border-top: 2px solid #f4f5f6;
 
   .social-networks {
+    position: relative;
     padding: 30px 15px 0 15px;
+
+    @include tablet {
+      img {
+        padding-bottom: 5px;
+      }
+
+      p {
+        position: absolute;
+        display: inline-block;
+        bottom: 5px;
+        margin-left: 10px;
+      }
+
+      .social-icons {
+        position: absolute;
+        margin: 0;
+        right: 0;
+        bottom: 5px;
+      }
+    }
 
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
 
       li {
         font-size: 24px;

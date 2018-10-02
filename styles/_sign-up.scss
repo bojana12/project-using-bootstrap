@@ -1,4 +1,8 @@
 .sign-up {
+  @include tablet {
+    width: 40%;
+  }
+
   width: 80%;
   margin: 40px auto 40px auto;
   background-color: #f4f5f6;

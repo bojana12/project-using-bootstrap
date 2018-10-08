@@ -3,7 +3,7 @@
 }
 
 .fw-300 {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .p-20 {
@@ -71,7 +71,7 @@
 }
 
 .fs-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .fs-17 {
@@ -111,7 +111,11 @@
 }
 
 .grey {
-  color: #666;
+  color: #666 !important;
+}
+
+.light-grey {
+  color: rgba(0,0,0,.55) !important;
 }
 
 .light-dark {
@@ -135,6 +139,10 @@
 
 .b-style {
   border: 1px solid #e6e6e6;
+}
+
+.b-style-0 {
+  border: none !important;
 }
 
 .bstyle-bottom {

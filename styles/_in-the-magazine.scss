@@ -1,0 +1,14 @@
+.in-the-magazine {
+  .article-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  @include tablet {
+    .title {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+  }
+} // end of in-the-magazine

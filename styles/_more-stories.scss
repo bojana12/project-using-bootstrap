@@ -3,6 +3,10 @@
     padding: 14px 0;
     border-top: 1px solid #ddd;
 
+    @include large-laptop {
+      margin-bottom: 30px;
+    }
+
     .story-img {
       float: left;
       width: 182px;
@@ -19,7 +23,20 @@
 section#more-stories1 {
   @include tablet {
     position: absolute;
+    top: 8%;
     right: 0;
-    top: 70%;
+  }
+
+  @include laptop {
+    top: 13%;
+    left: 25%;
+  }
+
+  @include large-laptop {
+    top: 14%;
+  }
+
+  @include desktop {
+    top: 16%;
   }
 }

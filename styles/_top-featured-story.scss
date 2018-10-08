@@ -4,6 +4,10 @@
   .story-img {
     position: relative;
 
+    img {
+      width: 100%;
+    }
+
     .category {
       position: absolute;
       left: 0;
@@ -38,6 +42,10 @@ article#top-story1 {
   @include tablet {
     position: absolute;
     right: 0;
+  }
+
+  @include laptop {
+    left: 25%;
   }
 }
 

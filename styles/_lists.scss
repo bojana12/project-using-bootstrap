@@ -1,4 +1,10 @@
 .lists {
+  @include laptop {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+  }
+
   ul {
     li {    
       border-bottom: 1px solid #ddd;

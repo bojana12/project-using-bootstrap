@@ -7,27 +7,11 @@ body {
     display: block;
   }
 
-  .sponsor-insight { 
-    @include tablet {
-      width: 45%;
-      margin: 0 auto;
-    }
-  } // end of sponsor-insight
+  .container-fluid {
+    position: relative;
 
-  .in-the-magazine {
-    @include tablet {
-      .title {
-        padding-bottom: 10px;
-        border-bottom: 1px solid #e6e6e6;
-      }
-    }
-  } // in-the-magazine
-
-  .featured-slideshows {
-    article {
-      @include tablet {
-        margin-top: 0;
-      }
+    @include laptop {
+      width: 98%;
     }
   }
 } // end of body

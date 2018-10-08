@@ -12,19 +12,41 @@
     <title>Newsweek clone</title>
   </head>
   <body>
-    <header class="first-header d-flex flex-row justify-content-end">
+    <header class="first-header d-flex flex-row justify-content-end d-lg-none">
       <div class="sign-in"><a class="fw-900 upcase" href="#">Sign in</a></div>
       <div class="subscribe"><a class="fw-900 upcase" href="#">Subscribe</a>
     </header>
 
-    <header class="second-header d-flex flex-row justify-content-between">
+    <header class="second-header d-flex flex-row justify-content-between d-lg-none">
       <a href="#"><img src="./images/newsweek-logo.png" class="pl-10" /></a>
       <a class="menu-icon" href="#"><i class="fas fa-bars align-middle"></i></a>
     </header>
+    
+    <header class="large-header d-lg-block">
+      <span>Thu, Oct 04, 2018</span>
+      <a href="#" class="logo-img"><img src="./images/large-logo.png" /></a>
+      <div class="sign-in"><a class="fw-900 upcase" href="#">Sign in</a></div>
+      <div class="subscribe"><a class="fw-900 upcase" href="#">Subscribe <i class="fas fa-greater-than"></i></a></div>
+    </header>
+
+    <nav class="navbar d-none d-lg-block">
+      <ul>
+        <a href="#" class="d-inline-block"><li>U.S.</li></a>
+        <a href="#" class="d-inline-block"><li>World</li></a>
+        <a href="#" class="d-inline-block"><li>Business</li></a>
+        <a href="#" class="d-inline-block"><li>Tech & Science</li></a>
+        <a href="#" class="d-inline-block"><li>Culture</li></a>
+        <a href="#" class="d-inline-block"><li>Sports</li></a>
+        <a href="#" class="d-inline-block"><li>Health</li></a>
+        <a href="#" class="d-inline-block"><li>Opinion</li></a>
+        <a href="#" class="d-inline-block"><li>Delible</li></a>
+        <a href="#" class="d-inline-block"><li class="b-style-0 fs-16 fw-300 grey">Search <i class="fas fa-search pl-10"></i></li></a>   
+      </ul>
+    </nav>
 
     <div class="main container-fluid mt-20">
       <div class="row">
-        <article class="top-story col-sm-6" id="top-story1"> 
+        <article class="top-story col-sm-6 col-lg-5" id="top-story1"> 
           <div class="story-img">
             <h5 class="title-style">Top story</h5>
             <img src="https://c-5uwzmx78pmca09x24ax2evmeaemmsx2ekwu.g00.newsweek.com/g00/3_c-5eee.vmeaemms.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fa.vmeaemms.kwux2faqbmax2feee.vmeaemms.kwux2fnqtmax2fabgtmax2flmasbwx78x2fx78cjtqkx2f0896x2f87x2f04x2fzba00fka.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$/$/$/$" class="img-fluid" />
@@ -40,7 +62,7 @@
         </article><!-- end of top-story -->
 
         <div class="w-100"></div>
-        <section class="more-stories col-sm-6" id="more-stories1">
+        <section class="more-stories col-sm-6 col-lg-5" id="more-stories1">
           <h5 class="title-style">More stories</h5>
           <article class="story">
             <div class="story-img">
@@ -93,7 +115,7 @@
           </article><!-- end of story -->
         </section><!-- end of more stories -->
 
-        <section class="featured-stories col-sm-6">
+        <section class="featured-stories col-sm-6 col-lg-3">
           <article class="top-story"> 
             <div class="story-img">
               <h5 class="title-style">Featured stories</h5>
@@ -153,7 +175,7 @@
         </section><!-- end of featured-stories -->
       </div><!-- end of row -->
 
-      <section class="lists">
+      <section class="lists col-lg-4">
         <h5 class="title-style">Opinion</h5>
         <ul class="list-unstyled">
           <li class="media pb-10">
@@ -248,7 +270,7 @@
         </ul>
       </section><!-- end of lists -->
 
-      <article class="top-story sponsor-insight"> 
+      <article class="top-story sponsor-insight col-lg-4"> 
         <div class="story-img">
           <img src="./images/story1.webp" class="img-fluid" />
           <div class="category upcase fw-900"><a href="#" class="d-block col-inh blue">Sponsor insight</a></div>
@@ -260,7 +282,7 @@
         </div>
       </article><!-- end of story -->
 
-      <div class="sign-up p-20 b-style">
+      <div class="sign-up p-20 b-style col-lg-4">
         <div class="newsletter mb-10"> 
           <img src="./images/little-logo.png" />
           <span class="upcase fw-900 fs-19">Sign up for our newsletter</span>
@@ -323,7 +345,6 @@
           </article>
         </div><!-- end of row -->
       </section><!-- end of in-the magazine -->
-      
 
       <section class="editors-pick">
         <div class="title text-center mb-3 pb-10 bstyle-bottom">
@@ -331,7 +352,7 @@
           <span class="d-inline-block upcase fw-900 fs-19 align-middle">Editor's pick</span>
         </div>
         <div class="row">
-          <article class="top-story col-sm-6"> 
+          <article class="top-story col-sm-6 col-lg-3"> 
             <div class="story-img">
               <h5 class="title-style d-sm-none">Featured stories</h5>
               <img src="./images/editors-pick1.jpg" class="img-fluid" />
@@ -344,7 +365,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story col-sm-6"> 
+          <article class="top-story col-sm-6 col-lg-3"> 
             <div class="story-img">
               <img src="./images/editors-pick2.jpg" class="img-fluid" />
               <div class="category upcase fw-900"><a href="#" class="d-block col-inh">Sports</a></div>
@@ -356,7 +377,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story col-sm-6"> 
+          <article class="top-story col-sm-6 col-lg-3"> 
             <div class="story-img">
               <img src="./images/editors-pick3.jpg" class="img-fluid" />
               <div class="category upcase fw-900"><a href="#" class="d-block col-inh">U.S.</a></div>
@@ -368,7 +389,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story col-sm-6"> 
+          <article class="top-story col-sm-6 col-lg-3"> 
             <div class="story-img">
               <img src="./images/editors-pick4.jpg" class="img-fluid" />
               <div class="category upcase fw-900"><a href="#" class="d-block col-inh">Tech and Science</a></div>
@@ -388,7 +409,7 @@
           <span class="d-inline-block upcase fw-900 fs-19 align-middle">Featured slideshows</span>
         </div>
         <div class="row">
-          <article class="top-story col-sm-4"> 
+          <article class="top-story col-sm-4 col-xl-3"> 
             <div class="story-img">
               <img src="./images/feature1.jpg" class="img-fluid" />
               <div class="category upcase fw-900 p-1"><a href="#" class="d-block col-inh"><img src="./images/count.png"></a></div>
@@ -399,7 +420,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story mt-40 col-sm-4"> 
+          <article class="top-story mt-40 col-sm-4 col-xl-3"> 
             <div class="story-img">
               <img src="./images/feature2.jpg" class="img-fluid" />
               <div class="category upcase fw-900 p-1"><a href="#" class="d-block col-inh"><img src="./images/count.png"></a></div>
@@ -410,7 +431,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story mt-40 col-sm-4"> 
+          <article class="top-story mt-40 col-sm-4 col-xl-3"> 
             <div class="story-img">
               <img src="./images/feature3.jpg" class="img-fluid" />
               <div class="category upcase fw-900 p-1"><a href="#" class="d-block col-inh"><img src="./images/count.png"></a></div>
@@ -421,7 +442,7 @@
             </div>
           </article><!-- end of top-story -->
 
-          <article class="top-story mt-40 mb-2 col-sm-4"> 
+          <article class="top-story mt-40 mb-2 col-sm-4 col-xl-3"> 
             <div class="story-img">
               <img src="./images/feature4.jpg" class="img-fluid" />
               <div class="category upcase fw-900 p-1"><a href="#" class="d-block col-inh"><img src="./images/count.png"></a></div>
@@ -449,32 +470,36 @@
         </ul>
       </div>
       <div class="links">
-        <ul class="first-list mb-0">
-          <a href="#" class="d-inline-block grey"><li>About us</li></a>
-          <a href="#" class="d-inline-block grey"><li>Corrections</li></a>
-          <a href="#" class="d-inline-block grey"><li>Contact Us</li></a>
-          <a href="#" class="d-inline-block grey"><li>Travel</li></a>
-          <a href="#" class="d-inline-block grey"><li>Advertise</li></a>
-          <a href="#" class="d-inline-block grey"><li>Copyright</li></a>
-          <a href="#" class="d-inline-block grey"><li>Terms & Conditions</li></a>
-          <a href="#" class="d-inline-block grey"><li>Privacy Policy</li></a>
-          <a href="#" class="d-inline-block grey"><li>Cookie Policy</li></a>
-          <a href="#" class="d-inline-block grey"><li>Terms of Sale</li></a>
-          <a href="#" class="d-inline-block grey"><li>Archive</li></a>
-          <a href="#" class="d-inline-block grey"><li>Announcements</li></a>
-          <a href="#" class="d-inline-block grey"><li>Consent Preferences</li></a>
-        </ul>
+        <div>
+          <ul class="first-list mb-0">
+            <a href="#" class="d-inline-block grey"><li>About us</li></a>
+            <a href="#" class="d-inline-block grey"><li>Corrections</li></a>
+            <a href="#" class="d-inline-block grey"><li>Contact Us</li></a>
+            <a href="#" class="d-inline-block grey"><li>Travel</li></a>
+            <a href="#" class="d-inline-block grey"><li>Advertise</li></a>
+            <a href="#" class="d-inline-block grey"><li>Copyright</li></a>
+            <a href="#" class="d-inline-block grey"><li>Terms & Conditions</li></a>
+            <a href="#" class="d-inline-block grey"><li>Privacy Policy</li></a>
+            <a href="#" class="d-inline-block grey"><li>Cookie Policy</li></a>
+            <a href="#" class="d-inline-block grey"><li>Terms of Sale</li></a>
+            <a href="#" class="d-inline-block grey"><li>Archive</li></a>
+            <a href="#" class="d-inline-block grey"><li>Announcements</li></a>
+            <a href="#" class="d-inline-block grey"><li>Consent Preferences</li></a>
+          </ul>
+        </div>
         
-        <ul>
-          <li class="d-inline-block grey font-weight-bold">Editions:</li>
-          <a href="#" class="d-inline-block grey"><li>U.S. Edition</li></a>
-          <a href="#" class="d-inline-block grey"><li>Middle East</li></a>
-          <a href="#" class="d-inline-block grey"><li>日本</li></a>
-          <a href="#" class="d-inline-block grey"><li>한국</li></a>
-          <a href="#" class="d-inline-block grey"><li>Pakistan</li></a>
-          <a href="#" class="d-inline-block grey"><li>Polska</li></a>
-          <a href="#" class="d-inline-block grey"><li>România</li></a>
-        </ul>
+        <div>
+          <ul>
+            <li class="d-inline-block grey font-weight-bold">Editions:</li>
+            <a href="#" class="d-inline-block grey"><li>U.S. Edition</li></a>
+            <a href="#" class="d-inline-block grey"><li>Middle East</li></a>
+            <a href="#" class="d-inline-block grey"><li>日本</li></a>
+            <a href="#" class="d-inline-block grey"><li>한국</li></a>
+            <a href="#" class="d-inline-block grey"><li>Pakistan</li></a>
+            <a href="#" class="d-inline-block grey"><li>Polska</li></a>
+            <a href="#" class="d-inline-block grey"><li>România</li></a>
+          </ul>
+        </div>
       </div>
     </footer>
 

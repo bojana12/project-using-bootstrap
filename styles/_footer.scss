@@ -1,6 +1,10 @@
 footer {
   border-top: 2px solid #f4f5f6;
 
+  @include laptop {
+    padding: 0 30px;
+  }
+
   .social-networks {
     position: relative;
     padding: 30px 15px 0 15px;
@@ -13,15 +17,15 @@ footer {
       p {
         position: absolute;
         display: inline-block;
-        bottom: 5px;
-        margin-left: 10px;
+        bottom: 2px;
+        margin-left: 15px;
       }
 
       .social-icons {
         position: absolute;
         margin: 0;
         right: 0;
-        bottom: 5px;
+        bottom: 3px;
       }
     }
 
@@ -41,8 +45,19 @@ footer {
     padding: 0 15px 30px 15px;
     line-height: 28px;
 
+    @include laptop {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #d9d9d9;
+    }
+
     .first-list {
       border-top: 1px solid #d9d9d9;
+
+      @include laptop {
+        border: none;
+        margin-right: 5rem;
+      }
     }
 
     ul {
@@ -50,7 +65,12 @@ footer {
       padding: 6px 0 0 0;
 
       li {
-        padding-right: 20px;
+        padding-right: 10px;
+        margin-right: 10px;
+
+          @include tablet {
+            border-right: 1px solid #d9d9d9;
+        }
       }
     }
   }

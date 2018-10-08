@@ -1,0 +1,12 @@
+.sponsor-insight { 
+  @include tablet {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  @include laptop {
+    position: absolute !important;
+    right: 0;
+    top: 62rem;
+  }
+} // end of sponsor-insight

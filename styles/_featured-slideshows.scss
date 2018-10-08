@@ -1,0 +1,7 @@
+.featured-slideshows {
+  article {
+    @include tablet {
+      margin-top: 0;
+    }
+  }
+}
